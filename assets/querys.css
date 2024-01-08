@@ -1,1 +1,202 @@
-@media max-width(1000px)
+/*Computadora grande*/
+@media (max-width: 2000px){
+    .hero__info{
+        gap: 0;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .tablet__nav{
+        display: none;
+    }
+    .cell__nav{
+        display: none;
+    }
+}
+/*tablet*/
+@media (max-width:992px){
+
+    .computer__nav{
+        display: none;
+    }
+    .tablet__nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 17vh;
+    }
+    .nav__container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header{
+        height: 12vh;
+        gap: 0;
+        align-items: center;
+        z-index: 1000;
+
+    }
+
+    header ul li{
+        font-size: 17px;
+    }
+    #hero{
+        margin-top: 6vh;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+    }
+    .hero__info{
+        margin-left: 0;
+    }
+    .hero__img{
+        display: none;
+    }
+    h1{
+        width: 60vw;
+        font-size: 40px;
+    }
+    #about{
+        top: 100vh;
+        z-index: 10;
+        left: 0;
+    
+    }
+    #about{
+        width: 90vw;
+    }
+    .card__container{
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0;
+    }
+
+    #call__to-action{
+        top: 280vh;
+        width: 100%;
+        left: 0;
+    }
+
+    .athlete, .trainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .trainer__img{
+        width: 40%;
+    }
+    .athlete{
+        flex-direction: column-reverse;
+    }
+    .athlete__img {
+        width: 40%;
+        height: 40%;
+    }
+    .second__hr{
+        position: relative;
+        top:10px;
+        z-index: 100;
+    }
+    #contact{
+        top: 600vh;
+    }
+    .contact__form{
+        width: 30vw;
+        margin-left: 32px;
+    }
+    .option__container{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    iframe{
+        top: 600vh;
+    }
+
+    footer{
+        top: 700vh;
+        width: 100%;
+        left: 0;
+    }
+    .footer__hr{
+        top: 700vh;
+    }
+}
+
+/*celus*/
+@media (max-width: 768px){
+    
+
+    .tablet__nav{
+        display: none;
+    }
+    .cell__nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+
+    }
+    #toggle__menu{
+        display: none;
+    }
+    .navbar i{
+        font-size: 33px;
+    }
+    .hmb__menu{
+        flex-direction: column;
+        width: 94%;
+        position: absolute;
+        top: 12vh;
+        left: 3%;
+        align-items: center;
+        background-color: #2d2d2f;
+        border-radius: 1rem;
+    }
+    .navbar ul{
+        display: none;
+    }
+    #toggle__menu:checked ~ .hmb__menu{
+        display: flex;
+    }
+    .hmb__menu li, .hmb__menu li a {
+        background-color: #2d2d2f;
+    }
+    
+
+    .computer__nav{
+        display: none;
+    }
+
+    .trainer__img, .athlete__img{
+        display: none;
+    }
+    #call__to-action{
+        top: 350vh;
+    }
+    .trainer__container, .athlete__container{
+        gap: 20px;
+    }
+    .trainer button{
+        margin-bottom: 30px;
+    }
+    #contact{
+        top: 550vh;
+    }
+    iframe{
+        top: 550vh;
+        
+    }
+    h2{
+        padding: 5px 40px;
+    }
+    .about__title{
+        text-align: center;
+    }
+    footer{
+        top: 650vh;
+    }
+    .footer__hr{
+        top: 645vh;
+    }
+}

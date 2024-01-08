@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/querys.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Montserrat&family=Signika:wght@300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,8 @@
     <title>Straight to Strength</title>
 </head>
 <body>
-    <header>
+    <!--HEADER PC-->
+    <header class="computer__nav">
         <a href="#hero"><img src="assets/img/logo_landing-removebg-preview.png"  alt="Logo"></a>
         <nav class="navbar">
             <div class="navbar__list">
@@ -37,8 +39,46 @@
             </div>
             </ul>
         </nav>
-
     </header>
+
+        <!--HEADER tablet-->
+    <header class="tablet__nav">
+        <a href="#hero"><img src="assets/img/logo_landing-removebg-preview.png"  alt="Logo"></a>
+        <div class="nav-container">
+        <nav class="navbar">
+            <div class="navbar__list">
+            <ul>
+                <li><a href="#about">Conoce mas</a></li>
+                <li><a href="#call__to-action">Superate</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#">Registrate</a></li>
+                <li><a href="#">Iniciar sesion</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </div>
+    </header>
+        <!--HEADER cell-->
+        <header class="cell__nav">
+            <a href="#hero"><img src="assets/img/logo_landing-removebg-preview.png"  alt="Logo"></a>
+            <nav class="navbar">
+                <div class="navbar__list">
+                    <label for="toggle__menu"><i class="fa-solid fa-bars"></i></label>
+                    <input type="checkbox" id="toggle__menu">
+                    <ul class="hmb__menu">
+                    <li><a href="#about">Conoce mas</a></li>
+                    <li><a href="#call__to-action">Superate</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#">Registrate</a></li>
+                    <li><a href="#">Iniciar sesion</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
+        </header>
+        <!--Hero y pagina-->
     <section id="hero">
         <div class="hero__info">
         <h1><span>Superate</span> como entrenador o atleta, <br><span class="violet">entrenate con nosotros</span></h1>
@@ -48,6 +88,7 @@
         <img src="assets/img/hero-img.png" class="hero__img" alt="">
     </section>
     <section id="about">
+        <div class="about__container">
         <h2 class="about__title">Que podes mejorar en la comunidad?</h2>
         <p class="about__text">Tanto como atleta, como entrenador</p>
         <div class="card__container">
@@ -68,6 +109,7 @@
                 <p class="card__text">Enterate de todas las novedades del ambito cientifico para estar lo mas robusto posible. Recorda que mas tiempo sano significan mas posibilidades de desatar tu potencial.</p>
             </div>
         </div>
+    </div>
     </section>
 
 
@@ -80,7 +122,7 @@
             </div>
         <img class="trainer__img" src="assets/img/entrenador.png" alt="">
         </div>
-        <hr>
+        <hr class="first__hr">
         <div class="athlete">
             <img src="assets/img/athlete-removebg-preview.png" class="athlete__img" alt="atleta">
             <div class="athlete__container">
@@ -90,7 +132,7 @@
             </div>
             
         </div>
-        <hr>
+        <hr class="second__hr">
     </section>
   
 
