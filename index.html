@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="assets/querys.css">
+    <link rel="stylesheet" href="assets/animaciones.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -31,14 +32,15 @@
                 <li><a href="#call__to-action">Superate</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </div>
-            <div class="register">
+            <div class="register__nav">
                 <ul>
-                    <li><a href="#">Registrate</a></li>
-                    <li><a href="#">Iniciar sesion</a></li>
+                    <li><a href="assets/register.html">Registrate</a></li>
+                    <li><a href="assets/sign-in.html">Iniciar sesion</a></li>
                 </ul>
             </div>
             </ul>
         </nav>
+
     </header>
 
         <!--HEADER tablet-->
@@ -51,8 +53,8 @@
                 <li><a href="#about">Conoce mas</a></li>
                 <li><a href="#call__to-action">Superate</a></li>
                 <li><a href="#contact">Contacto</a></li>
-                <li><a href="#">Registrate</a></li>
-                <li><a href="#">Iniciar sesion</a></li>
+                <li><a href="assets/register.html">Registrate</a></li>
+                <li><a href="assets/sign-in.html">Iniciar sesion</a></li>
                 </ul>
             </div>
         </nav>
@@ -70,20 +72,21 @@
                     <li><a href="#about">Conoce mas</a></li>
                     <li><a href="#call__to-action">Superate</a></li>
                     <li><a href="#contact">Contacto</a></li>
-                    <li><a href="#">Registrate</a></li>
-                    <li><a href="#">Iniciar sesion</a></li>
+                    <li><a href="assets/register.html">Registrate</a></li>
+                    <li><a href="assets/sign-in.html">Iniciar sesion</a></li>
                     </ul>
                 </div>
             </nav>
             </div>
         </div>
+        <div class="overlay"></div>
         </header>
         <!--Hero y pagina-->
     <section id="hero">
         <div class="hero__info">
         <h1><span>Superate</span> como entrenador o atleta, <br><span class="violet">entrenate con nosotros</span></h1>
-        <h2>Somos la comunidad de entrenamiento mas grande de latinoamerica, nos dedicamos hace mas de 15 años a la preparacion fisica de alto rendimiento, y hace mas de 5 a ayudar a entrenadores</h2>
-        <button>Quiero superarme!</button>
+        <h2 class="hero__sub-text">Somos la comunidad de entrenamiento mas grande de latinoamerica, nos dedicamos hace mas de 15 años a la preparacion fisica de alto rendimiento, y hace mas de 5 a ayudar a entrenadores</h2>
+        <button class="hero__btn">Quiero superarme!</button>
         </div>
         <img src="assets/img/hero-img.png" class="hero__img" alt="">
     </section>
@@ -146,7 +149,7 @@
             <label for="email"></label>
             <input id="email" type="email" placeholder="Ingrese su email">
 
-            <select name="Zona">
+            <select class="zone" name="Zona">
                 <option selected value="Zona a trabajar">Zona a trabajar</option>
                 <option value="Zona oeste">Zona oeste</option>
                 <option value="Zona norte">Zona norte</option>
@@ -179,9 +182,9 @@
     <hr class="footer__hr">
     <footer>
         <ul>
-            <li>Marcas relacionadas</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
+            <li><a href="https://www.youtube.com/shorts/u7eI3UoAw04" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/pierreseliteperformance/?hl=es" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/_mundofitness?lang=es" target="_blank">Twitter</a></li>
         </ul>
     </footer>
     

@@ -189,7 +189,7 @@
 /*celus*/
 @media (max-width: 768px){
     
-    .register{
+    .register__nav{
         position: relative;
         margin: 0;
         right: 30vw;
